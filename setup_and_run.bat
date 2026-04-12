@@ -1,0 +1,6 @@
+@echo off
+echo Installing PER Rig Dependencies...
+pip install -r requirements.txt
+echo Launching Suspension Monitor...
+python loadcell_gui.py
+pause
