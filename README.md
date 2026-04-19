@@ -16,16 +16,16 @@
 * Copy and paste the following block of code into the terminal and press **Enter**:
 
 ```bash  
-\# 1\. Navigate to your folder (Universal Path)  
+# 1. Navigate to your folder (Universal Path)  
 cd /d "%USERPROFILE%\\Desktop\\SeniorDesign\_main\_code" || cd /d "%USERPROFILE%\\OneDrive\\Desktop\\SeniorDesign\_main\_code"
 
-\# 2\. Install dependencies (Required for the port check to work)  
+# 2. Install dependencies (Required for the port check to work)  
 pip install \-r requirements.txt
 
-\# 3\. IDENTIFY THE PORT (Look for "Arduino" or "USB Serial Port")  
+# 3. IDENTIFY THE PORT (Look for "Arduino" or "USB Serial Port")  
 python \-m serial.tools.list\_ports
 
-\# 4\. Launch the monitor  
+# 4. Launch the monitor  
 python loadcell\_gui.py
 
 ## **🛠 Using the App**
