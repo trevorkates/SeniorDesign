@@ -1,15 +1,15 @@
-### **1\. Download the Files**
+### **1. Download the Files**
 
 * Click the green **Code** button at the top of this GitHub page.  
 * Select **Download ZIP**.  
 * Extract the ZIP file and move the folder named `SeniorDesign_main_code` to your **Desktop**.
 
-### **2\. Install Python**
+### **2. Install Python**
 
 * Download and install Python 3.x from [python.org](https://www.python.org/downloads/windows).  
 * **CRITICAL:** During installation, you **must** check the box that says **"Add Python to PATH"**. If this is skipped, the terminal will not recognize the commands below.
 
-### **3\. Run the Monitor**
+### **3. Run the Monitor**
 
 * Connect your Arduino/Mega to a power source and to the computer via USB.  
 * Press the **Windows Key**, type `cmd`, and press **Enter**.  
