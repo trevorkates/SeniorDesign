@@ -20,13 +20,13 @@
 cd /d "%USERPROFILE%\Desktop\SeniorDesign_main_code" || cd /d "%USERPROFILE%\OneDrive\Desktop\SeniorDesign_main_code"
 
 # 2. Install dependencies (Required for the port check to work)  
-pip install \-r requirements.txt
+pip install -r requirements.txt
 
 # 3. IDENTIFY THE PORT (Look for "Arduino" or "USB Serial Port")  
-python \-m serial.tools.list\_ports
+python -m serial.tools.list\_ports
 
 # 4. Launch the monitor  
-python loadcell\_gui.py
+python loadcell_gui.py
 
 ## **🛠 Using the App**
 ```
