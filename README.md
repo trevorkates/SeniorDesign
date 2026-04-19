@@ -35,7 +35,7 @@ python loadcell\_gui.py
 2. **Launch:** Click **LAUNCH MONITOR**.  
 3. **Tare:** If the readings are not at zero with no load applied, click the **GLOBAL TARE / ZERO SYSTEM** button at the top to zero the sensors.
 
-## **⚠️ Troubleshooting**
+## **Troubleshooting**
 
 * **"Python is not recognized":** Re-install Python and ensure the "Add Python to PATH" checkbox is selected.  
 * **"No Devices Found":** Check the USB connection to the Mega. Ensure the Arduino IDE Serial Monitor is closed, as only one program can use the port at a time.  
