@@ -11,7 +11,7 @@
 
 ### **3\. Run the Monitor**
 
-* Connect your Arduino/Mega to the computer via USB.  
+* Connect your Arduino/Mega to a power source and to the computer via USB.  
 * Press the **Windows Key**, type `cmd`, and press **Enter**.  
 * Copy and paste the following block of code into the terminal and press **Enter**:
 
