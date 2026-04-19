@@ -17,7 +17,7 @@
 
 ```bash  
 # 1. Navigate to your folder (Universal Path)  
-cd /d "%USERPROFILE%\\Desktop\\SeniorDesign\_main\_code" || cd /d "%USERPROFILE%\\OneDrive\\Desktop\\SeniorDesign\_main\_code"
+cd /d "%USERPROFILE%\Desktop\SeniorDesign_main_code" || cd /d "%USERPROFILE%\OneDrive\Desktop\SeniorDesign_main_code"
 
 # 2. Install dependencies (Required for the port check to work)  
 pip install \-r requirements.txt
