@@ -29,13 +29,13 @@ python -m serial.tools.list_ports
 python loadcell_gui.py
 ```
 
-## **Using the App**
+### **4. Using the App**
 
 1. **Select Port:** Once the "PER Rig \- Setup" window appears, use the dropdown to select the COM port you identified in Step 3\.  
 2. **Launch:** Click **LAUNCH MONITOR**.  
 3. **Tare:** If the readings are not at zero with no load applied, click the **GLOBAL TARE / ZERO SYSTEM** button at the top to zero the sensors.
 
-## **Troubleshooting**
+### **5. Troubleshooting**
 
 * **"Python is not recognized":** Re-install Python and ensure the "Add Python to PATH" checkbox is selected.  
 * **"No Devices Found":** Check the USB connection to the Mega. Ensure the Arduino IDE Serial Monitor is closed, as only one program can use the port at a time.  
