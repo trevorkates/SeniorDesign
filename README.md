@@ -16,20 +16,20 @@
 * Copy and paste the following block of code into the terminal and press **Enter**:
 
 ```bash  
-# 1. Navigate to your folder (Universal Path)  
+# 1. Navigate to your folder
 cd /d "%USERPROFILE%\Desktop\SeniorDesign_main_code" || cd /d "%USERPROFILE%\OneDrive\Desktop\SeniorDesign_main_code"
 
-# 2. Install dependencies (Required for the port check to work)  
+# 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. IDENTIFY THE PORT (Look for "Arduino" or "USB Serial Port")  
-python -m serial.tools.list\_ports
+# 3. IDENTIFY THE PORT
+python -m serial.tools.list_ports
 
-# 4. Launch the monitor  
+# 4. Launch the monitor
 python loadcell_gui.py
-
-## **🛠 Using the App**
 ```
+
+## **Using the App**
 
 1. **Select Port:** Once the "PER Rig \- Setup" window appears, use the dropdown to select the COM port you identified in Step 3\.  
 2. **Launch:** Click **LAUNCH MONITOR**.  
