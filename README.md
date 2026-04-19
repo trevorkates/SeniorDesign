@@ -6,7 +6,7 @@
 
 ### **2\. Install Python**
 
-* Download and install Python 3.x from [python.org](https://www.python.org/downloads/).  
+* Download and install Python 3.x from [python.org](https://www.python.org/downloads/windows).  
 * **CRITICAL:** During installation, you **must** check the box that says **"Add Python to PATH"**. If this is skipped, the terminal will not recognize the commands below.
 
 ### **3\. Run the Monitor**
