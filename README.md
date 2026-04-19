@@ -29,7 +29,7 @@ python \-m serial.tools.list\_ports
 python loadcell\_gui.py
 
 ## **🛠 Using the App**
-'''
+```
 
 1. **Select Port:** Once the "PER Rig \- Setup" window appears, use the dropdown to select the COM port you identified in Step 3\.  
 2. **Launch:** Click **LAUNCH MONITOR**.  
