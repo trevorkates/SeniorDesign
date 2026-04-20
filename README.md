@@ -4,6 +4,7 @@
 * Select **Download ZIP**.  
 * Extract the ZIP file and move the folder named `SeniorDesign_main_code` to your **Desktop**.
 
+## Setup for Windows
 ### **2. Install Python**
 
 * Download and install Python 3.x from [python.org](https://www.python.org/downloads/windows).  
