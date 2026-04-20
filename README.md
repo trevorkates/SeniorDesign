@@ -1,4 +1,4 @@
-### ** Download the Files**
+### Download the Files
 
 * Click the green **Code** button at the top of this GitHub page.  
 * Select **Download ZIP**.  
