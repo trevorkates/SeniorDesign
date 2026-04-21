@@ -42,6 +42,6 @@ python loadcell_gui.py
 * **"No Devices Found":** Check the USB connection to the Mega. Ensure the Arduino IDE Serial Monitor is closed, as only one program can use the port at a time.  
 * **Library Errors:** Ensure you have an active internet connection when running the `pip install` command to download `pyserial` and `matplotlib`.
 
-### Circuit Diagram and Pin Organization
+### Circuit Diagram
 <img width="961" height="540" alt="Pasted Graphic 3" src="https://github.com/user-attachments/assets/2543905b-f584-454f-a08e-36759ad1e430" />
 <img width="432" height="402" alt="Arduino Pin Organization" src="https://github.com/user-attachments/assets/e1a65ee3-63f5-46ea-9fef-372b5011d755" />
