@@ -2,7 +2,7 @@
 
 * Click the green **Code** button at the top of this GitHub page.  
 * Select **Download ZIP**.  
-* Extract the ZIP file and move the folder named `SeniorDesign_main_code` to your **Desktop**.
+* Extract the ZIP file and move the folder named `SeniorDesign_main` to your **Desktop**.
 
 ## Setup for Windows
 ### **Install Python**
@@ -18,7 +18,7 @@
 
 ```bash  
 # 1. Navigate to your folder
-cd /d "%USERPROFILE%\Desktop\SeniorDesign_main_code" || cd /d "%USERPROFILE%\OneDrive\Desktop\SeniorDesign_main_code"
+cd /d "%USERPROFILE%\Desktop\SeniorDesign_main" || cd /d "%USERPROFILE%\OneDrive\Desktop\SeniorDesign_main"
 
 # 2. Install dependencies
 pip install -r requirements.txt
@@ -41,7 +41,7 @@ python suspension_test_final_4_27.py
 
 ```bash
 # 1. Navigate to your folder (Mac uses forward slashes)
-cd ~/Desktop/SeniorDesign_main_code || cd ~/Desktop/Senior_Design_Python
+cd ~/Desktop/SeniorDesign_main
 
 # 2. Install dependencies 
 pip3 install -r requirements.txt
