@@ -5,12 +5,12 @@
 * Extract the ZIP file and move the folder named `SeniorDesign_main_code` to your **Desktop**.
 
 ## Setup for Windows
-### **1. Install Python**
+### **Install Python**
 
 * Download and install Python 3.x from [python.org](https://www.python.org/downloads/windows).  
 * **CRITICAL:** During installation, you **must** check the box that says **"Add Python to PATH"**. If this is skipped, the terminal will not recognize the commands below.
 
-### **2. Run the Monitor**
+### **Run the Monitor**
 
 * Connect your Arduino/Mega to a power source and to the computer via USB.  
 * Press the **Windows Key**, type `cmd`, and press **Enter**.  
@@ -28,6 +28,29 @@ python -m serial.tools.list_ports
 
 # 4. Launch the monitor
 python suspension_test_final_4_27.py
+```
+## Setup for Mac
+### **Install Python**
+* Download and install Python 3.x for macOS from python.org.
+* **Note:** Unlike Windows, the macOS installer typically configures your PATH automatically. Simply follow the standard installation prompts.
+
+### **Run the Monitor**
+* Connect your Arduino/Mega to a power source and to the computer via USB.
+* Press Command (⌘) + Space, type Terminal, and press Enter.
+* Copy and paste the following block of code into the terminal and press Enter:
+
+```bash
+# 1. Navigate to your folder (Mac uses forward slashes) [cite: 2508]
+cd ~/Desktop/SeniorDesign_main_code || cd ~/Desktop/Senior_Design_Python
+
+# 2. Install dependencies 
+pip3 install -r requirements.txt
+
+# 3. IDENTIFY THE PORT (Mac uses /dev/cu.usbmodem* instead of COM ports) [cite: 2127]
+ls /dev/cu.usbmodem*
+
+# 4. Launch the monitor
+python3 suspension_test_final_4_27.py
 ```
 
 ### **3. Using the App**
