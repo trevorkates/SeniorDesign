@@ -53,7 +53,7 @@ pip3 install -r requirements.txt
 ls /dev/cu.usbmodem*
 
 # 4. Launch the monitor
-python3 suspension_test__gui_final_4_27.py
+python3 suspension_test_gui_final_4_27.py
 ```
 
 ### **Using the App**
