@@ -21,7 +21,7 @@
 
 ```bash  
 # 1. Navigate to your folder
-cd /d "%USERPROFILE%\Desktop\SeniorDesign_main" || cd /d "%USERPROFILE%\OneDrive\Desktop\SeniorDesign_main"
+cd /d "%USERPROFILE%\Desktop\SeniorDesign-main" || cd /d "%USERPROFILE%\OneDrive\Desktop\SeniorDesign-main"
 
 # 2. Install dependencies
 pip install -r requirements.txt
@@ -44,7 +44,7 @@ python suspension_test_final_4_27.py
 
 ```bash
 # 1. Navigate to your folder (Mac uses forward slashes)
-cd ~/Desktop/SeniorDesign_main
+cd ~/Desktop/SeniorDesign-main
 
 # 2. Install dependencies 
 pip3 install -r requirements.txt
