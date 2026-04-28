@@ -27,14 +27,14 @@ pip install -r requirements.txt
 python -m serial.tools.list_ports
 
 # 4. Launch the monitor
-python loadcell_gui.py
+python suspension_test_final_4_27.py
 ```
 
 ### **3. Using the App**
 
 1. **Select Port:** Once the "PER Rig \- Setup" window appears, use the dropdown to select the COM port you identified in Step 3\.  
 2. **Launch:** Click **LAUNCH MONITOR**.  
-3. **Tare:** If the readings are not at zero with no load applied, click the **GLOBAL TARE / ZERO SYSTEM** button at the top to zero the sensors.
+3. **Tare:** If the readings are not at zero with no load applied, click the **ZERO SYSTEM** button at the top to zero the sensors.
 
 ### **4. Troubleshooting**
 
