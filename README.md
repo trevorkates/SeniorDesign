@@ -1,5 +1,5 @@
 # Electronics Code & Setup for PER Suspension Test Rig # 
-[Informational Poster Link](https://www.python.org/downloads/windows)
+[Informational Poster Link](Poster Presentation.pptx.pdf)
 
 ### Download the Files
 
