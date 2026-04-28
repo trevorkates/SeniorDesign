@@ -31,7 +31,7 @@ python suspension_test_final_4_27.py
 ```
 ## Setup for Mac
 ### **Install Python**
-* Download and install Python 3.x for macOS from python.org.
+* Download and install Python 3.x for macOS from [python.org](https://www.python.org/downloads/).
 * **Note:** Unlike Windows, the macOS installer typically configures your PATH automatically. Simply follow the standard installation prompts.
 
 ### **Run the Monitor**
@@ -40,26 +40,26 @@ python suspension_test_final_4_27.py
 * Copy and paste the following block of code into the terminal and press Enter:
 
 ```bash
-# 1. Navigate to your folder (Mac uses forward slashes) [cite: 2508]
+# 1. Navigate to your folder (Mac uses forward slashes)
 cd ~/Desktop/SeniorDesign_main_code || cd ~/Desktop/Senior_Design_Python
 
 # 2. Install dependencies 
 pip3 install -r requirements.txt
 
-# 3. IDENTIFY THE PORT (Mac uses /dev/cu.usbmodem* instead of COM ports) [cite: 2127]
+# 3. IDENTIFY THE PORT (Mac uses /dev/cu.usbmodem* instead of COM ports)
 ls /dev/cu.usbmodem*
 
 # 4. Launch the monitor
 python3 suspension_test_final_4_27.py
 ```
 
-### **3. Using the App**
+### **Using the App**
 
 1. **Select Port:** Once the "PER Rig \- Setup" window appears, use the dropdown to select the COM port you identified in Step 3\.  
 2. **Launch:** Click **LAUNCH MONITOR**.  
 3. **Tare:** If the readings are not at zero with no load applied, click the **ZERO SYSTEM** button at the top to zero the sensors.
 
-### **4. Troubleshooting**
+### **Troubleshooting**
 
 * **"Python is not recognized":** Re-install Python and ensure the "Add Python to PATH" checkbox is selected.  
 * **"No Devices Found":** Check the USB connection to the Mega. Ensure the Arduino IDE Serial Monitor is closed, as only one program can use the port at a time.  
