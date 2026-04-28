@@ -30,7 +30,7 @@ pip install -r requirements.txt
 python -m serial.tools.list_ports
 
 # 4. Launch the monitor
-python suspension_test_final_4_27.py
+python suspension_test_gui_final_4_27.py
 ```
 ## Setup for Mac
 ### **Install Python**
@@ -53,7 +53,7 @@ pip3 install -r requirements.txt
 ls /dev/cu.usbmodem*
 
 # 4. Launch the monitor
-python3 suspension_test_final_4_27.py
+python3 suspension_test__gui_final_4_27.py
 ```
 
 ### **Using the App**
